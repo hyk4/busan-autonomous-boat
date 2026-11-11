@@ -120,4 +120,3 @@ class NavigationNode(Node):
         unsafe_zones = []
 
         safety_margin = 5  # 안전 마진 (각도)
-        # ⚠️ 원본 rtf 파일이 여기서 끊겨 있음 (이후 calculate_avoidance_angle, set_thruster_and_servo, set_white_led, main 없음)
