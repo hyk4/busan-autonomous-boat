@@ -25,7 +25,7 @@ Camera ──▶ YOLOv8n (ONNX Runtime, CPU) ──▶ 표지 색·도형 판별
 
 ## 객체 인식 (YOLOv8 → ONNX)
 
-코스 중반의 표지 미션을 위해, 부표와 색·도형 표지(circle·cross·triangle × red·green·blue)를 탐지하는 모델을 아래 흐름으로 만들고 배포했습니다.
+코스 중반의 표지 미션을 위해, 부표와 색·도형 표지(circle·cross·triangle × red·green·blue)를 탐지하는 모델을 아래 흐름으로 만들고 SBC에 탑재했습니다.
 
 1. **데이터** — Roboflow에서 라벨링한 데이터셋 (학습 426장 / 검증 52장, 10클래스)
 2. **학습** — Colab T4 GPU에서 YOLOv8n 학습 (100 epochs, 640px, batch 16)
