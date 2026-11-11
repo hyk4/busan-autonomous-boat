@@ -30,6 +30,6 @@ Camera ──▶ YOLOv8n (ONNX Runtime, CPU) ──▶ 표지 색·도형 판별
 1. **데이터** — Roboflow에서 라벨링한 데이터셋 (학습 426장 / 검증 52장, 10클래스)
 2. **학습** — Colab T4 GPU에서 YOLOv8n 학습 (100 epochs, 640px, batch 16)
 3. **변환** — 학습한 PT파일을 ONNX로 export
-4. **배포** — SBC에서 ONNX Runtime(CPU)으로 실시간 추론
+4. **배포** — SBC에서 ONNX Runtime(CPU)으로 추론
 5. **후처리** — 모델 원시 출력 `(1, 14, 8400)`을 직접 파싱해 박스 좌표 변환, 신뢰도 0.5 필터링, NMS(IoU 0.4) 적용
 
